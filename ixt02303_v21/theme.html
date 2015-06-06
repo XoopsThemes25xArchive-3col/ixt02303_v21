@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<{*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt02303
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt02303
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: theme.html 1346 2009-11-24 16:57:25Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*}>
+<{assign var=theme_name value=$xoTheme->folderName}><{assign var=theme_tpl value=$xoTheme->folderName|cat:'/tpl'}>
+<{includeq file="$theme_tpl/versions.html"}>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<{$ixt_langcode}>" xml:lang="<{$ixt_langcode}>">
+ <head>
+  <{includeq file="$theme_tpl/metas.html"}>
+  <{includeq file="$theme_tpl/scripts.html"}>	
+  <{includeq file="$theme_tpl/assigns.html"}>	
+ </head>
+ <body>
+ <div id="ixt-page-background-gradient"></div>
+  <div id="ixt-page-background-glare"><div id="ixt-page-background-glare-image"></div></div>
+  <div id="ixt-main">
+   <!-- ixtSTART ixt-Sheet -->
+   <div class="ixt-Sheet">
+    <div class="ixt-Sheet-body">
+     <!-- ixtSTART globalnav.html -->
+     <{includeq file="$theme_tpl/globalnav.html"}>
+     <!-- ixtEND globalnav.html -->
+     <{assign var=columns_layout value="ixt-layout"}>
+     <!-- ixtSTART header.html -->
+     <{includeq file="$theme_tpl/header.html"}>
+     <!-- ixtEND header.html -->
+     <!-- ixtSTART slides.html -->
+     <{includeq file="$theme_tpl/slides.html"}>
+     <!-- ixtEND slides.html -->
+     <!-- ixtSTART content.html -->
+     <{includeq file="$theme_tpl/content.html"}>
+     <!-- ixtEND content.html -->
+     <div class="cleared"></div>
+     <!-- ixtSTART footer.html -->
+     <{includeq file="$theme_tpl/footer.html"}>
+     <!-- ixtEND footer.html -->
+    </div>
+   </div>
+   <!-- ixtEND ixt-Sheet -->
+   <div class="cleared"></div>
+   <p class="ixt-page-footer"><a href="http://ixthemes.org/"><{$ixt_generator}> Theme</a> by IXThemes</p>
+  </div>
+ </body>
+</html>

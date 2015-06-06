@@ -1,0 +1,19 @@
+<{*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt02303
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt02303
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: scripts.html 1808 2009-12-15 18:08:32Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*}>
+<script type="text/javascript" src="<{xoImgUrl js/script.js}>"></script>
+<{if isset($xoops_version) && ($xoops_version|lower|replace:" ":""|truncate:8:"" == "xoops2.4")}>
+ <script type="text/javascript" src="<{$ixt_url}>/browse.php?Frameworks/jquery/jquery.js" charset="utf-8"></script>
+<{else }>
+ <script type="text/javascript" src="<{xoImgUrl js/jquery.js}>" charset="utf-8"></script>
+<{/if}>
+<script type="text/javascript" src="<{xoImgUrl js/jquery.jcarousel.pack.js}>" charset="utf-8"></script>

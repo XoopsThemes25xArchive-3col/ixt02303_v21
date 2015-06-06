@@ -1,0 +1,16 @@
+IXThemes ChangeLog
+
+== IXThemes ixt02303 ==
+
+===2009-12-15 : 2.1 ===
+
+Improved:
+- Loading jQuery from CMS core (for XOOPS 2.4.x) is added
+- The self-adjusted menubar is added
+- New extended footer system blocks loader
+- Now users can change the theme name
+- slides.css included in slides.html template
+
+===2009-11-22 : 1.0 ===
+
+The first public release of a ixt02303 XOOPS theme

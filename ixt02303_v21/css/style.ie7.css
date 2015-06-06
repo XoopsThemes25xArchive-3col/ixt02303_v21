@@ -1,0 +1,83 @@
+/*
+* Qualitative Themes for XOOPS
+*
+* @license       http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU General Public License (GPL)
+* @project       IXThemes Project, http://ixthemes.org
+* @theme_name    ixt02303
+* @theme_demo    http://ixthemes.sourceforge.net/demo/x/index.php?xoops_theme_select=ixt02303
+* @theme_author  Alexander Galochkin (algalochkin at users.sourceforge.net)
+* @version       $Id: style.ie7.css 1808 2009-12-15 18:08:32Z algalochkin $
+*
+* Thanks you, that you have left this header untouched!!!
+*/
+/* begin Box, Sheet */
+.ixt-Sheet-body { zoom: 1; }
+/* end Box, Sheet */
+
+/* begin MenuItem */
+.ixt-menu a .r { clip: rect(auto auto auto 406px); }
+/* end MenuItem */
+
+/* begin Box, Block */
+.ixt-Block-body { zoom: 1; }
+.ixt-Block1-body { zoom: 1; }
+.ixt-Block2-body { zoom: 1; }
+.ixt-Block3-body { zoom: 1; }
+.ixt-Block4-body { zoom: 1; }
+.ixt-Block5-body { zoom: 1; }
+.ixt-Block6-body { zoom: 1; }
+.ixt-Block7-body { zoom: 1; }
+.ixt-Block8-body { zoom: 1; }
+.ixt-Block9-body { zoom: 1; }
+.ixt-Block10-body { zoom: 1; }
+.ixt-Block11-body { zoom: 1; }
+.ixt-Block12-body { zoom: 1; }
+.ixt-Block999-body { zoom: 1; }
+/* end Box, Block */
+
+/* begin Box, BlockContent */
+.ixt-BlockContent-body { zoom: 1; }
+.ixt-BlockContent1-body { zoom: 1; }
+.ixt-BlockContent2-body { zoom: 1; }
+.ixt-BlockContent3-body { zoom: 1; }
+.ixt-BlockContent4-body { zoom: 1; }
+.ixt-BlockContent5-body { zoom: 1; }
+.ixt-BlockContent6-body { zoom: 1; }
+.ixt-BlockContent7-body { zoom: 1; }
+.ixt-BlockContent8-body { zoom: 1; }
+.ixt-BlockContent9-body { zoom: 1; }
+.ixt-BlockContent10-body { zoom: 1; }
+.ixt-BlockContent11-body { zoom: 1; }
+.ixt-BlockContent12-body { zoom: 1; }
+.ixt-BlockContent999-body { zoom: 1; }
+/* end Box, BlockContent */
+
+/* begin Box, Post */
+.ixt-Content-tl { clip: rect(auto 8px 8px auto); }
+.ixt-Content-tr { clip: rect(auto auto 8px 8px); }
+.ixt-Content-bl { clip: rect(8px 8px auto auto); }
+.ixt-Content-br { clip: rect(8px auto auto 8px); }
+.ixt-Content-tc { clip: rect(auto auto 8px auto); }
+.ixt-Content-bc { clip: rect(8px auto auto auto); }
+.ixt-Content-cr { clip: rect(auto auto auto 8px); }
+.ixt-Content-cl { clip: rect(auto 8px auto auto); }
+.ixt-Content-body { zoom: 1; }
+
+.ixt-Post-tl { clip: rect(auto 8px 8px auto); }
+.ixt-Post-tr { clip: rect(auto auto 8px 8px); }
+.ixt-Post-bl { clip: rect(8px 8px auto auto); }
+.ixt-Post-br { clip: rect(8px auto auto 8px); }
+.ixt-Post-tc { clip: rect(auto auto 8px auto); }
+.ixt-Post-bc { clip: rect(8px auto auto auto); }
+.ixt-Post-cr { clip: rect(auto auto auto 8px); }
+.ixt-Post-cl { clip: rect(auto 8px auto auto); }
+.ixt-Post-body { zoom: 1; }
+/* end Box, Post */
+
+/* begin PostContent */
+.ixt-PostContent { height:1%; }
+/* end PostContent */
+
+/* begin Button */
+.ixt-button-wrapper .r { clip: rect(auto auto auto 400px); }
+/* end Button */
